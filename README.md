@@ -2,6 +2,12 @@
 
 A simple, interactive browser-based drawing application built with HTML5 Canvas, CSS, and JavaScript. Create digital artwork with an intuitive interface and smooth drawing experience.
 
+## Screenshots
+
+![image](https://github.com/user-attachments/assets/9812d969-71c4-47b4-b4ca-e33a74b1388d)
+![image](https://github.com/user-attachments/assets/8b74a602-c070-449c-94e1-fbda484c2581)
+
+
 ## ✨ Features
 
 - **Free-hand Drawing**: Draw freely on the canvas using mouse or touch
