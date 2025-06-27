@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixel Playground</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Pixel Playground</h1>
+    <div class="toolbar">
+      <div class="color-section">
+        <label for="colorPicker">Choose Color:</label>
+        <div class="color-picker-wrapper">
+          <button id="paletteBtn" class="palette-button">
+            <img width="48" height="48" src="https://img.icons8.com/emoji/48/artist-palette.png" alt="artist-palette" class="palette-icon">
+          </button>
+          <input type="color" id="colorPicker" value="#000000" style="display: none;">
+        </div>
+      </div>
+      <button id="clearBtn">Clear Canvas</button>
+    </div>
+    <canvas id="drawCanvas" width="800" height="500"></canvas>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html> 
