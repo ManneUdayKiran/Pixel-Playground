@@ -5,9 +5,29 @@
     {
       "src": "*.html",
       "use": "@vercel/static"
+    },
+    {
+      "src": "*.js",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "*.css",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
+    {
+      "src": "/app.js",
+      "headers": {
+        "Content-Type": "application/javascript"
+      }
+    },
+    {
+      "src": "/style.css",
+      "headers": {
+        "Content-Type": "text/css"
+      }
+    },
     {
       "src": "/(.*)",
       "dest": "/index.html"
